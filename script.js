@@ -20,6 +20,7 @@ let learnedList = []
 
 window.addEventListener('load',(() => {
     learnedList = JSON.parse(localStorage.getItem('learned'))
+    if (!learnedList) learnedList = []
     showTheoryData()
 }))
 
@@ -46,7 +47,7 @@ const showTheoryData = (() => {
     }
 
     listItem.addEventListener('click', (() => {
-      if(!learnedList || !learnedList.includes(listItem.getAttribute('data-theory'))){
+      if(!learnedList || (learnedList && !learnedList.includes(listItem.getAttribute('data-theory')))){
         learnedList.push(listItem.getAttribute('data-theory'))
       }
       showTheoryData()
