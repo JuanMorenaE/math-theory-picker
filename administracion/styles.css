@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #8233b7;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    padding: 1.2em;
+    text-align: center;
+    color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+
+
+h2{
+    padding: .5em 0;
+    font-size: 21px;
+    text-align: center;
+}
+
+.container{
+    padding: 3em 2em;
+    width: 100%;
+    flex-grow: 1;
+    background-color: #efefef;
+    border-radius: 3em 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .random-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#theory, #learned{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    list-style: decimal;
+    padding-left: 1em;
+
+    .theory-item{
+        cursor: pointer;
+        font-size: 15px;
+        color: #444;
+
+        input{
+            width: 20px;
+        }
+    }
+}
+
+.picker{
+    display: flex;
+    padding: 1.5em 2em;
+    background-color: #8233b7;
+    border: none;
+    color: #efefef;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#random{
+    padding: 1em 0;
+    font-size: 18px;
+    min-height: 100px;
+    color: #552377;
+    text-align: center;
+}
