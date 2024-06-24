@@ -38,12 +38,15 @@ const showTheoryData = (() => {
     listItem.classList.add('theory-item')
     listItem.setAttribute('data-theory', theory)
 
-    if(!learnedList.includes(listItem.getAttribute('data-theory'))){
-      listItem.style.color = '#333'
-    }else{
-      listItem.style.color = '#aaa'
-      listItem.style.textDecoration = 'line-through'
+    if(learnedList){
+      if(!learnedList.includes(theory)){
+        listItem.style.color = '#333'
+      }else{
+        listItem.style.color = '#aaa'
+        listItem.style.textDecoration = 'line-through'
+      }
     }
+    
 
     listItem.addEventListener('click', (() => {
       if(!learnedList.includes(listItem.getAttribute('data-theory'))){
