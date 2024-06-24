@@ -14,7 +14,7 @@ const theoryList = [
 "Peter Drucker planeamiento y su clasificación",
 "Russell Ackof planeamiento tipología del planeamiento junto a los tipos de personas",
 "McKinsey línea del tiempo",
-"Matrices BCG, McKinsey, Yip y de Porter",
+"Matrices BCG, McKinsey, Yip y la U de Porter",
 "Tipología de las variaciones junto a la opinión de Charles François",
 "Barreras de salida de entrada fuerzas competitivas",
 "Normas de calidad",
