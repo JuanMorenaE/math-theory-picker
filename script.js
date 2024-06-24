@@ -16,9 +16,7 @@ const theoryList = [
   "Criterio de Comparación para Series.",
 ]
 
-let learnedList = [
-  "Criterio del Cociente de D'Alembert y Cauchy.",
-]
+let learnedList = []
 
 window.addEventListener('load',(() => {
     learnedList = JSON.parse(localStorage.getItem('learned'))
@@ -45,33 +43,33 @@ const showTheoryData = (() => {
         listItem.style.color = '#aaa'
         listItem.style.textDecoration = 'line-through'
       }
+
+      listItem.addEventListener('click', (() => {
+        if(!learnedList.includes(listItem.getAttribute('data-theory'))){
+          learnedList.push(listItem.getAttribute('data-theory'))
+        }
+        showTheoryData()
+      }))
     }
     
-
-    listItem.addEventListener('click', (() => {
-      if(!learnedList.includes(listItem.getAttribute('data-theory'))){
-        learnedList.push(listItem.getAttribute('data-theory'))
-      }
-      showTheoryData()
-    }))
-
     theoryContainer.append(listItem)
   }
 
-  for (theory of learnedList){
-    let listItem = document.createElement('li')
-    listItem.innerHTML = `${theory}`
-    listItem.classList.add('theory-item')
-    listItem.setAttribute('data-theory', theory)
-
-    listItem.addEventListener('click', (() => {
-      learnedList.splice(learnedList.indexOf(listItem.getAttribute('data-theory')), 1)
-      showTheoryData()
-    }))
-
-    learnedContainer.append(listItem)
+  if(learnedList){
+    for (theory of learnedList){
+      let listItem = document.createElement('li')
+      listItem.innerHTML = `${theory}`
+      listItem.classList.add('theory-item')
+      listItem.setAttribute('data-theory', theory)
+  
+      listItem.addEventListener('click', (() => {
+        learnedList.splice(learnedList.indexOf(listItem.getAttribute('data-theory')), 1)
+        showTheoryData()
+      }))
+  
+      learnedContainer.append(listItem)
+    }
   }
-
 
   localStorage.setItem('learned', JSON.stringify(learnedList))
 })
