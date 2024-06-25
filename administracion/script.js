@@ -61,6 +61,8 @@ window.addEventListener('load',(() => {
 const showTheoryData = (() => {
   const theoryContainer = document.getElementById('theory')
   const learnedContainer = document.getElementById('learned')
+  const leftTheory = document.getElementById('leftTheory')
+  const leftLearned = document.getElementById('leftLearned')
 
   theoryContainer.innerHTML = ''
   learnedContainer.innerHTML = ''
@@ -89,6 +91,9 @@ const showTheoryData = (() => {
     
     theoryContainer.append(listItem)
   }
+
+  leftTheory.innerText = theoryList.length - learnedList.length
+  leftLearned.innerText = learnedList.length
 
   if(learnedList){
     for (theory of learnedList){

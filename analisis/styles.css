@@ -31,10 +31,24 @@ header{
 
 
 
-h2{
+
+
+.title{
     padding: .5em 0;
-    font-size: 21px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    h2{
+        font-size: 21px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 15px;
+        color: #666;
+    }
 }
 
 .container{
