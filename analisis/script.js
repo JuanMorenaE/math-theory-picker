@@ -10,7 +10,6 @@ const theoryList = [
   "Primer Criterio de Comparación de impropias de primera especie.",
   "Demostrar que el conjunto solución de una ecuación diferencial lineal homogénea de segundo orden o orden n es subespacio y su dimensión.",
   "Convergencia Dominada y Convergencia Absoluta.",
-  "Criterio de Comparación para Series.",
 ]
 
 let learnedList = []
