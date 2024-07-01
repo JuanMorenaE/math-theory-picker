@@ -6,7 +6,7 @@ const theoryList = [
   "Raíz n-ésima en números complejos.",
   "Integración por partes y por sustitución para primitivas.",
   "e^z = 1 => z = 2kπi y z = 2kπi => e^z = 1",
-  "e^z = e^z => z = w + 2kπi y z = w + 2kπi => e^z = e^w",
+  "e^z = e^w => z = w + 2kπi y z = w + 2kπi => e^z = e^w",
   "Primer Criterio de Comparación de impropias de primera especie.",
   "Demostrar que el conjunto solución de una ecuación diferencial lineal homogénea de segundo orden o orden n es subespacio y su dimensión.",
   "Convergencia Dominada y Convergencia Absoluta.",
