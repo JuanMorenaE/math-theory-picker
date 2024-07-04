@@ -1,27 +1,21 @@
 const theoryList = [
-  "La descomposición A=LDU es única. Caso particular cuando A es simétrica.",
-  "Definición de matriz invertible, unicidad de la inversa.",
-  "Definición de matriz singular y no singular.",
-  "Teorema: A cuadrada invertible si y solo si es no singular.",
-  "Definición de base, conjunto LI, LD y generador de un espacio vectorial.",
-  "Teorema: Si V es un espacio vectorial, B un generador de V con m vectores. Si A es un subconjunto de V con n>m entonces A es LD. Deducir que todas las bases de V tienen la misma cantidad de vectores.",
-  "Definición de espacio vectorial y subespacio vectorial.",
-  "Definición de los 4 subespacios fundamentales. Demostraciones de cómo hallar las bases de los 4 subespacios.",
-  "Definición de transformación lineal.",
-  " Definición de matriz asociada a una TL.",
-  "Definición de núcleo e imagen de una TL.",
-  "Teorema: Dada una transformación lineal F entre dos espacios vectoriales de dimensión finita, pruebe que la relación entre las coordenadas de un vector y las coordenadas de su transformado está dada por la multiplicación por una matriz (asociada de A)",
-  "Teorema: una transformación lineal F es biyectiva si y solo si transforma bases en bases.",
-  "Definición de determinante.",
-  "Pruebe que una matriz triangular el determinante es el producto de las entradas diagonales.",
-  "Pruebe que el determinante de un producto de matrices es el producto de los determinantes.",
-  " Pruebe que el determinante de una matriz y su traspuesta son iguales.",
+  "Criterio del cociente de D'Alembert y Cauchy",
+  "Existencia y unicidad de soluciones en ecuaciones diferenciales (Separables o de Primer Orden).",
+  "Condición necesaria de convergencia.",
+  "Teorema fundamental del cálculo integral.",
+  "Raíz n-ésima en números complejos.",
+  "Integración por partes y por sustitución para primitivas.",
+  "e^z = 1 => z = 2kπi y z = 2kπi => e^z = 1.",
+  "e^z = e^z => z = w + 2kπi y z = w + 2kπi => e^z = e^w.",
+  "Primer Criterio de Comparación de impropias de primera especie.",
+  "Demostrar que el conjunto solución de una ecuación diferencial lineal homogénea de segundo orden o orden n es subespacio y su dimensión.",
+  "Convergencia Dominada y Convergencia Absoluta.",
 ]
 
 let learnedList = []
 
 window.addEventListener('load',(() => {
-    learnedList = JSON.parse(localStorage.getItem('learnedAlgebra'))
+    learnedList = JSON.parse(localStorage.getItem('learned'))
     if (!learnedList) learnedList = []
     showTheoryData()
 }))
@@ -79,7 +73,7 @@ const showTheoryData = (() => {
     }
   }
 
-  localStorage.setItem('learnedAlgebra', JSON.stringify(learnedList))
+  localStorage.setItem('learned', JSON.stringify(learnedList))
 })
 
 
