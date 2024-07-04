@@ -85,7 +85,13 @@ const showTheoryData = (() => {
 
 const randomPick = (() => {
   const random = document.getElementById('random')
-
+  
+  if(learnedList.length == 0){
+    random.innerText = ""
+    return
+  }
+  
   randomNumber = Math.floor(Math.random() * (learnedList.length) + 1)
   random.innerText = learnedList[randomNumber - 1]
+  
 })

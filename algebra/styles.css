@@ -1,3 +1,8 @@
+:root{
+    --primary-color: #56a110;
+    --primary-color-dark: #295803;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +11,7 @@
 }
 
 body{
-    background: #b73833;
+    background: var(--primary-color);
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
@@ -93,7 +98,7 @@ header{
 .picker{
     display: flex;
     padding: 1.5em 2em;
-    background-color: #b73833;
+    background-color: var(--primary-color);
     border: none;
     color: #efefef;
     border-radius: 10px;
@@ -105,6 +110,6 @@ header{
     padding: 1em 0;
     font-size: 18px;
     min-height: 100px;
-    color: #7a1c19;
+    color: var(--primary-color-dark);
     text-align: center;
 }
