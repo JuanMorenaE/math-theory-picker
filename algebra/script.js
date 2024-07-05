@@ -12,10 +12,12 @@ const theoryList = [
   "Definición de núcleo e imagen de una TL.",
   "Teorema: Dada una transformación lineal F entre dos espacios vectoriales de dimensión finita, pruebe que la relación entre las coordenadas de un vector y las coordenadas de su transformado está dada por la multiplicación por una matriz (asociada de A)",
   "Teorema: una transformación lineal F es biyectiva si y solo si transforma bases en bases.",
-  "Definición de determinante.",
-  "Pruebe que una matriz triangular el determinante es el producto de las entradas diagonales.",
-  "Pruebe que el determinante de un producto de matrices es el producto de los determinantes.",
-  "Pruebe que el determinante de una matriz y su traspuesta son iguales.",
+  "Definir la función determinante aplicada a matrices n x n",
+  "Probar que si A, B son matrices n x n entonces det(AB) =det(A)det(B).",
+  "Probar que el determinante de una matriz diagonal es el producto de los elementos que integran su diagonal.",
+  "Probar que el determinante de una matriz triangular es el producto de los elementos que integran su diagonal.",
+  "Probar que si A es invertible si y sólo si det(A) = 0 y dar una fórmula para det(A^-1).",
+  "Probar que si A es una matriz n x n entonces det(A) =det(A^T).",
 ]
 
 let learnedList = []
