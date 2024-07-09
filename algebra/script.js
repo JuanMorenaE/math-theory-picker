@@ -21,7 +21,9 @@ const theoryList = [
   "Pruebe que A es no singular si y solo si A es invertible.",
   "Si A es una matriz 3 x 3 no singular, pruebe que existe matrices P de permutacion, L de triangular inferior con 1 en la diagonal, y U triangular superior, tales que PA = LU.",
   "Si A es una matriz m x n, defina el rango r y el espacio nulo N(A), y pruebe que la dimensión de N(A) es n - r.",
-  "Sea una F:V->W una transformacion lineal entre dos espacios vectoriales, V y W de dimensión finita, con bases Bv = {v1, ..., vn} y Bw = {w1, ..., wm} dadas. Pruebe que la relación entre las coordenadas de un vector y las coordenadas de su transformado está dada por una matriz.",
+  "Definición de transformación lineal.",
+  "Sea una F:V->W una transformacion lineal entre dos espacios vectoriales V y W de dimensión finita, con bases Bv = {v1, ..., vn} y Bw = {w1, ..., wm} dadas. Pruebe que la relación entre las coordenadas de un vector y las coordenadas de su transformado está dada por una matriz.",
+  "Sea una F:V->W una transformacion lineal, y Bv = {v1, ..., vn} una base de V, pruebe que si F es biyectiva entonces el conjunto {F(v1), ..., F(vn)} es base de W",
 ]
 
 let learnedList = []
