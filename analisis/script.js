@@ -1,13 +1,6 @@
 const theoryList = [
-  "Demostrar que || || domina a || ||\'.",                                                                                                                // Normas
-  "Demostrar que toda bola de centro 0 segun || ||\' contiene una bola del mismo centro segun || ||.",                                                    // Normas
-  "Demostrar que toda bola segun || ||\' contiene una bola del mismo centro segun || ||.",                                                                // Normas
-  "Demostrar que las tres normas usuales son equivalentes.",                                                                                              // Normas
   "Defina normas equivalentes.",                                                                                                                          // Normas
   "Defina norma en Rn.",                                                                                                                                  // Normas
-
-  "Sean A y B dos subconjuntos abiertos de Rn, pruebe que C = A u B es un conjunto abierto.",                                                             // Conjuntos
-  "Sean A y B dos subconjuntos abiertos de Rn, pruebe que C = A n B es un conjunto abierto.",                                                             // Conjuntos
 
   "Demostrar que si f es diferenciable en p entonces f es continua en p.",                                                                                // Diferenciabilidad
   "Demostrar que si f es diferenciable en p entonces existe df/dv(p) para todo v que pertenece a R^n no nulo y df/dv(p) = diferencial de f en p (v).",    // Diferenciabilidad
