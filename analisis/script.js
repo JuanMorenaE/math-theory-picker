@@ -1,9 +1,4 @@
 const theoryList = [
-  "Demostrar que si f es diferenciable en p entonces f es continua en p.",                                                                                // Diferenciabilidad
-  "Demostrar que si f es diferenciable en p entonces existe df/dv(p) para todo v que pertenece a R^n no nulo y df/dv(p) = diferencial de f en p (v).",    // Diferenciabilidad
-  "Enuncie y demuestre la condición suficiente de diferenciabilidad.",                                                                                    // Diferenciabilidad
-  "Enuncie y demuestre la condición suficiente de diferenciabilidad para el caso de una función de dos variables.",                                       // Diferenciabilidad
-
   "Demostrar que || || domina a || ||\'.",                                                                                                                // Normas
   "Demostrar que toda bola de centro 0 segun || ||\' contiene una bola del mismo centro segun || ||.",                                                    // Normas
   "Demostrar que toda bola segun || ||\' contiene una bola del mismo centro segun || ||.",                                                                // Normas
@@ -13,6 +8,11 @@ const theoryList = [
 
   "Sean A y B dos subconjuntos abiertos de Rn, pruebe que C = A u B es un conjunto abierto.",                                                             // Conjuntos
   "Sean A y B dos subconjuntos abiertos de Rn, pruebe que C = A n B es un conjunto abierto.",                                                             // Conjuntos
+
+  "Demostrar que si f es diferenciable en p entonces f es continua en p.",                                                                                // Diferenciabilidad
+  "Demostrar que si f es diferenciable en p entonces existe df/dv(p) para todo v que pertenece a R^n no nulo y df/dv(p) = diferencial de f en p (v).",    // Diferenciabilidad
+  "Enuncie y demuestre la condición suficiente de diferenciabilidad.",                                                                                    // Diferenciabilidad
+  "Enuncie y demuestre la condición suficiente de diferenciabilidad para el caso de una función de dos variables.",                                       // Diferenciabilidad
 
   "Enuncie y demuestre la regla de la cadena.",                                                                                                           // Regla de la Cadena
 ]
