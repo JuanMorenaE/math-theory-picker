@@ -4,8 +4,8 @@ const theoryList = [
 
   "Demostrar que si f es diferenciable en p entonces f es continua en p.",                                                                                // Diferenciabilidad
   "Demostrar que si f es diferenciable en p entonces existe df/dv(p) para todo v que pertenece a R^n no nulo y df/dv(p) = diferencial de f en p (v).",    // Diferenciabilidad
+  "Demostrar que si f es diferenciable en p en particular, existen todas las derivadas parciales en a.",                                                  // Diferenciabilidad
   "Enuncie y demuestre la condición suficiente de diferenciabilidad.",                                                                                    // Diferenciabilidad
-  "Enuncie y demuestre la condición suficiente de diferenciabilidad para el caso de una función de dos variables.",                                       // Diferenciabilidad
 
   "Enuncie y demuestre la regla de la cadena.",                                                                                                           // Regla de la Cadena
 ]
