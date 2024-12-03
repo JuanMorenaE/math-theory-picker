@@ -1,6 +1,22 @@
 const theoryList = [
-  "Sea V un espacio vectorial. Demuestre que un conjunto ortogonal k vectores no nulos de V, es un conjunto LI.",
-  "Si B es ortogonal => Se cumple el teorema de pitagoras.",
+  "Enunciar y demostrar el lema de Schur.",
+  "Enunciar y demostrar el teorema espectral.",
+  "Definir matriz definida positiva y semi-definida positiva.",
+  "Enunciar el teorema de la descomposición de una matriz en valores singulares.",
+  "Demostrar el teorema de la descomposición de una matriz en sus valores singulares.",
+  "Definir matriz hermítica, unitaria y normal.",
+  "Definir matriz diagonalizable.",
+  "Si una matriz real A es diagonalizable entonces A^2 es diagonalizable?",
+  "Enunciar y demostrar la desigualdad de Cauchy Shwartz.",
+  "Enunciar y demostrar la desigualdad triangular para normas.",
+  "Enunciar y demostrar uno de los teoremas de Gershgorin.",
+  "Definir valor propio dominante de una matriz.",
+  "Definir matrices semejantes.",
+  "Definir norma de una matriz cuadrada y norma infinito de una matriz cuadrada.",
+  "Demostrar que en una matriz unitaria los valores propios tienen modulo 1.",
+  "Enunciar el teorema de la descomposición QR para una matriz A (cuadrada y no cuadrada).",
+  "Probar que si son semejantes tienen mismo rango, determinante, traza y polinomio característico.",
+  "Demostrar que una forma cuadrática es definida positiva si y solo si todos sus valores propios son positivos.",
 ]
 
 let learnedList = []
