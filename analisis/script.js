@@ -1,13 +1,14 @@
 const theoryList = [
-  "Defina normas equivalentes.",                                                                                                                          // Normas
-  "Defina norma en Rn.",                                                                                                                                  // Normas
-
-  "Demostrar que si f es diferenciable en p entonces f es continua en p.",                                                                                // Diferenciabilidad
-  "Demostrar que si f es diferenciable en p entonces existe df/dv(p) para todo v que pertenece a R^n no nulo y df/dv(p) = diferencial de f en p (v).",    // Diferenciabilidad
-  "Demostrar que si f es diferenciable en p en particular, existen todas las derivadas parciales en a.",                                                  // Diferenciabilidad
-  "Enuncie y demuestre la condición suficiente de diferenciabilidad.",                                                                                    // Diferenciabilidad
-
-  "Enuncie y demuestre la regla de la cadena.",                                                                                                           // Regla de la Cadena
+  "Enunciar y demostrar la Regla de la Cadena",
+  "Enunciar y demostrar el criterio de Hess",
+  "Enunciar y demostrar una condición suficiente de diferenciabilidad",
+  "Enuncie y demuestre el Teorema de Schwartz",
+  "Enunciar y demostrar el teorema de Taylor",
+  "Si f es diferenciable en el punto a, probar que f es continua en a",
+  "Se considera una función diferenciable => Probar que existen todas las derivadas parciales f en el punto a",
+  "Enuncie y demuestre la condición necesaria de existencia de extremos relativos para el caso de una función de n variables",
+  "Demuestre que si una función f: R² -> R es diferenciable entonces existen las derivadas parciales en cualquier punto (a; b)",
+  "Se considera una función diferenciable => Si f tiene un extremo relativo en a probar que a es un punto estacionario de f",
 ]
 
 let learnedList = []
