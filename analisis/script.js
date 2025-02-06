@@ -2,8 +2,6 @@ const theoryList = [
   "Enunciar y demostrar la Regla de la Cadena",
   "Enunciar y demostrar el criterio de Hess",
   "Enunciar y demostrar una condición suficiente de diferenciabilidad",
-  "Enuncie y demuestre el Teorema de Schwartz",
-  "Enunciar y demostrar el teorema de Taylor",
   "Si f es diferenciable en el punto a, probar que f es continua en a",
   "Se considera una función diferenciable => Probar que existen todas las derivadas parciales f en el punto a",
   "Enuncie y demuestre la condición necesaria de existencia de extremos relativos para el caso de una función de n variables",
@@ -35,9 +33,9 @@ const showTheoryData = (() => {
     listItem.setAttribute('data-theory', theory)
 
     if (learnedList) {
-      if (!learnedList.includes(theory)) {
+      if (!learnedList.includes(theory))
         listItem.style.color = '#333'
-      } else {
+      else {
         listItem.style.color = '#aaa'
         listItem.style.textDecoration = 'line-through'
       }
