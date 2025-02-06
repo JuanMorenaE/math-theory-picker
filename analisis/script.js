@@ -1,6 +1,5 @@
 const theoryList = [
   "Enunciar y demostrar la Regla de la Cadena",
-  "Enunciar y demostrar el criterio de Hess",
   "Enunciar y demostrar una condición suficiente de diferenciabilidad",
   "Si f es diferenciable en el punto a, probar que f es continua en a",
   "Se considera una función diferenciable => Probar que existen todas las derivadas parciales f en el punto a",
