@@ -1,4 +1,5 @@
 const theoryList = [
+  "Enunciar y demostrar el teorema de Hess.",
   "Enunciar y demostrar la Regla de la Cadena",
   "Enunciar y demostrar una condición suficiente de diferenciabilidad",
   "Si f es diferenciable en el punto a, probar que f es continua en a",
