@@ -6,7 +6,6 @@ const theoryList = [
   "Se considera una función diferenciable => Probar que existen todas las derivadas parciales f en el punto a",
   "Enuncie y demuestre la condición necesaria de existencia de extremos relativos para el caso de una función de n variables",
   "Demuestre que si una función f: R² -> R es diferenciable entonces existen las derivadas parciales en cualquier punto (a; b)",
-  "Se considera una función diferenciable => Si f tiene un extremo relativo en a probar que a es un punto estacionario de f",
 ]
 
 let learnedList = []
